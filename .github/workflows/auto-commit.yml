@@ -3,6 +3,7 @@ name: Auto Commit Bot (Weekdays Only)
 on:
   schedule:
     - cron: "0 7 * * 1-5"
+    - cron: "0 19 * * 1-5"
   workflow_dispatch:
 
 permissions:
